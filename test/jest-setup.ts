@@ -1,5 +1,8 @@
+/**
+ *  before run all test, this file will be executed first  !!!
+ */
+
 // // Add the localStorage property to the 'global' object in Node environment
-//
 // Object.defineProperty(global, 'localStorage', {
 //   value: {
 //     store: {} as Record<string, string>,
