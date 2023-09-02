@@ -18,3 +18,5 @@
 //   },
 //   configurable: true,
 // })
+
+import 'jest-location-mock'
