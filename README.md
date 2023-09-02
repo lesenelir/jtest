@@ -15,3 +15,17 @@ Test Falls -> Test Passes -> Refactor -> Test Falls ...
 ### Behavior Driven Development (BDD)
 
 First, develop the main logic, then write the test cases to test the important part.
+
+## Snapshot Testing
+
+> Snapshot testing is not for testing the logic, it is for testing the UI
+
+Avoid:
+
+- should not test big components
+
+Snapshot Testing:
+
+- Generate the dom structure of the component, then compare the dom structure with the different render result.
+
+Jest's snapshots aren't limited to recording the DOM structure; they can also capture any content that can be serialized, including plain text, JSON, and XML.
