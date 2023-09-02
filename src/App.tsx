@@ -1,10 +1,13 @@
 import React from 'react'
 
+import Title from "@/components/Title"
+
 function App() {
   return (
-    <div className={'bg-red-500'}>
-      App
-    </div>
+    <>
+      <Title type={'large'} title={'Large Title'}/>
+      <Title type={'small'} title={'Small Title'}/>
+    </>
   )
 }
 
