@@ -1,4 +1,4 @@
-const sum = require('../../src/utils/sum')
+import sum from "@/utils/sum"
 
 describe('sum', () => {
   it('can be used to add two numbers', () => {
