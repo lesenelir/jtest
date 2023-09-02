@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title render large title successfully 1`] = `
+<body>
+  <div>
+    <h1
+      class="text-3xl text-blue-200"
+    >
+      Large Title
+    </h1>
+  </div>
+</body>
+`;
+
+exports[`Title render small title successfully 1`] = `
+<body>
+  <div>
+    <h2
+      class="text-lg text-blue-600"
+    >
+      Small Title
+    </h2>
+  </div>
+</body>
+`;
